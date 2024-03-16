@@ -53,6 +53,8 @@ export default function App() {
 
 
   return (
+    <>
+    <StatusBar style='light' />
     <LinearGradient colors={[Colors.primary400,Colors.accent400,]} style={styles.rootScreen}>
       <ImageBackground 
       source={require('./assets/images/background.png')}
@@ -63,6 +65,7 @@ export default function App() {
         <SafeAreaView style={styles.rootScreen}>{screen}</SafeAreaView>
       </ImageBackground> 
     </LinearGradient>
+    </>
   );
 }
 
@@ -72,7 +75,7 @@ const styles = StyleSheet.create({
     // backgroundColor:'#ddb52f', x  
   },
   backgroundImage:{
-    opacity:0.20,
+    opacity:0.15,
   },
 });
  

@@ -20,7 +20,7 @@ const styles=StyleSheet.create({
         textAlign:'center',
         // borderWidth:Platform.OS ==='android' ? 2 : 0,
         // borderWidth:Platform.select({ios:0,android:2}),
-        borderWidth:2,
+        borderWidth:4,
         borderColor:Colors.accent500,
         padding:12,
         fontFamily:'open-sans-regular',
