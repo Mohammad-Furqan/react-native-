@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     // backgroundColor:'#ddb52f', x  
   },
   backgroundImage:{
-    opacity:0.15,
+    opacity:0.20,
   },
 });
  
